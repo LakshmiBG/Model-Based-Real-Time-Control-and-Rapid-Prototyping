@@ -37,3 +37,17 @@ The graphical user interface (GUI) provides a visual aid in choosing the differe
 
 ### Joystick
 The joystick is used to provide the input values for joint control of the boom control system. The joystick used has 4 axes control and 12 buttons. The buttons communication has been terminated in the Simulink model. The axes are used for controlling the joints in joint velocity mode, boom tip in planar tip mode. In automatic mode the axis is used to control the velocity of the automatic boom movement.
+![image](https://user-images.githubusercontent.com/51742367/59344459-cd9e2080-8d16-11e9-9071-60d0113e6bc8.png)
+
+## 5. System Design
+### High-Level Architecture
+The high-level architecture of the control system comprises of the physical components and 
+its structures, software components within these physical components, hardware, software 
+and communication interfaces. 
+ The joystick send and receive, UDP send and receive modules form the communication 
+interface.
+ IHA 3D (visualization software) and GUI Simulink real time explorer form the software 
+components.
+ The Joysticks, human-machine-interface PC and Real time PC form the hardware 
+components.
+ The interaction between the host and target PC is through Ethernet/UDP. 
