@@ -1,7 +1,7 @@
 # Model-Based-Real-Time-Control-and-Rapid-Prototyping
 The aim of this exercise is to design and implement a real-time control system for a 4 degree-of- freedom hydraulic loader (i.e. boom) and test it in a rapid prototyping environment.
 
-##Abstract##
+## Abstract
 The purpose and scope of this exercise are to design and implement a real-time control system for the given 4 degrees of freedom (DOF) hydraulic boom model and to test it in the rapid prototyping environment. 
 In any product development phase, testing and validating the design is of utmost importance before the product production. Testing and validating any system for a range of parameters provides to be expensive and time-consuming when implemented on a real prototype. In these conditions, rapid prototyping systems comprising of hardware components can mimic actual behaviour of the desired system. 
 One of the quickest and inexpensive way of testing, verifying and evaluating control design is by rapid prototyping. Over here, the term Rapid prototyping implies developing an executable model on software that can be continuously tested and refined to make it better. It allows creating a working implementation of signal processing or control design and verifying the same on the hardware in the early design process, before production. It is proof to validate the control designs. The continuous testing on the real-time hardware provides a platform for refining the correctness of the design. This way the model can be refined for perfection and accuracy while reducing the product development time. 
