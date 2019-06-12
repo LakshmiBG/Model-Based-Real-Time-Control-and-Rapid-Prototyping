@@ -25,5 +25,10 @@ boom from transport position (idle boom resting posoition) to operation standby 
 The joints are operated in a close loop control with an exception during fault or service conditions wherein, the operator can control the boom in open loop control. The developed control system has a self-collision detection function implemented. When the joints are about to collide the control system turns off all the boom movements. Here the operator can retrieve the system in service mode/open loop control. The control system provides an option of transition to safe state form any working state of operation in situations of emergency wherein, all the boom movements are stopped. The user interface houses the switches for selecting different modes of operation as well visualizing the current operation mode. It also helps in monitoring the current joint position.
 
 ## 3. Use Case
-It can be used to communicate with customers, gather requirements, in system testing as well as manuals. It is presented in form of a diagram known as use case diagram and in written descriptions. The use case diagram and descriptions for the system is given below. 
+It can be used to communicate with customers, gather requirements, in system testing as well as manuals. It is presented in form of a diagram known as use case diagram and in written descriptions. The use case diagram for the system is given below. 
 
+![image](https://user-images.githubusercontent.com/51742367/59343975-aeeb5a00-8d15-11e9-903c-0ad0b4f5625f.png)
+
+## 4. User Interface
+The user interface acts as a toolbox in selecting and controlling the operation of the boom. The Graphical user interface is used to select the different states of operation while the joystick is used to provide input to the joints. 
+### Graphical User Interface
