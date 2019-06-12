@@ -51,3 +51,7 @@ components.
  The Joysticks, human-machine-interface PC and Real time PC form the hardware 
 components.
  The interaction between the host and target PC is through Ethernet/UDP. 
+![image](https://user-images.githubusercontent.com/51742367/59345038-f672e580-8d17-11e9-9811-2c541e597606.png)
+
+### Real-Time system Architecture
+The system architecture mainly comprises of the communication module Joystick receive and UDP send, state machine modelled in the stateflow, controller and a boom model. The outline of the real time system architecture is shown in the fig.
