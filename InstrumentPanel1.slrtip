@@ -1,0 +1,507 @@
+
+  <Object type="Desktop.Xpc.Designer.InstrumentPanel, Desktop.Xpc.Designer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="InstrumentPanel1" children="Controls">
+    <Object type="MW.Instruments.Panel, mwio, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Panel5" children="Controls">
+      <Object type="MW.Instruments.Panel, mwio, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Panel6" children="Controls">
+        <Object type="System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" name="Label24" children="Controls">
+          <Property name="Text">3. When collision is detected  retrieve in Service mode.</Property>
+          <Property name="UseCompatibleTextRendering">True</Property>
+          <Property name="Font">Segoe UI, 12pt, style=Bold</Property>
+          <Property name="ForeColor">192, 0, 0</Property>
+          <Property name="Location">9, 55</Property>
+          <Property name="Name">Label24</Property>
+          <Property name="Size">495, 43</Property>
+        </Object>
+        <Object type="System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" name="Label19" children="Controls">
+          <Property name="Text">NOTE!!!</Property>
+          <Property name="UseCompatibleTextRendering">True</Property>
+          <Property name="Font">Segoe UI Black, 12pt, style=Bold</Property>
+          <Property name="ForeColor">192, 0, 0</Property>
+          <Property name="Location">9, 9</Property>
+          <Property name="Name">Label19</Property>
+          <Property name="Size">77, 23</Property>
+        </Object>
+        <Object type="System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" name="Label18" children="Controls">
+          <Property name="Text">2. In case of critical emergency or faults press the STOP button.</Property>
+          <Property name="UseCompatibleTextRendering">True</Property>
+          <Property name="Font">Segoe UI, 12pt, style=Bold</Property>
+          <Property name="ForeColor">192, 0, 0</Property>
+          <Property name="Location">9, 32</Property>
+          <Property name="Name">Label18</Property>
+          <Property name="Size">495, 23</Property>
+        </Object>
+        <Object type="System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" name="Label17" children="Controls">
+          <Property name="Text">1. Read USE CASES  before the start of operation.</Property>
+          <Property name="UseCompatibleTextRendering">True</Property>
+          <Property name="Font">Segoe UI, 12pt, style=Bold</Property>
+          <Property name="ForeColor">192, 0, 0</Property>
+          <Property name="Location">79, 9</Property>
+          <Property name="Name">Label17</Property>
+          <Property name="Size">425, 23</Property>
+        </Object>
+        <Property name="Size">525, 104</Property>
+        <Property name="BackColor">ControlLight</Property>
+        <Property name="Location">709, 513</Property>
+        <Property name="Name">Panel6</Property>
+      </Object>
+      <Object type="MW.Instruments.Panel, mwio, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Panel4" children="Controls">
+        <Object type="System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" name="Label15" children="Controls">
+          <Property name="TextAlign">MiddleCenter</Property>
+          <Property name="Text">Planar Tip mode</Property>
+          <Property name="UseCompatibleTextRendering">True</Property>
+          <Property name="Font">Segoe UI Black, 10pt, style=Bold</Property>
+          <Property name="Location">489, 69</Property>
+          <Property name="Name">Label15</Property>
+          <Property name="Size">90, 52</Property>
+        </Object>
+        <Object type="System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" name="Label13" children="Controls">
+          <Property name="TextAlign">MiddleCenter</Property>
+          <Property name="Text">Joint velocity mode</Property>
+          <Property name="UseCompatibleTextRendering">True</Property>
+          <Property name="Font">Segoe UI Black, 10pt, style=Bold</Property>
+          <Property name="Location">373, 69</Property>
+          <Property name="Name">Label13</Property>
+          <Property name="Size">103, 52</Property>
+        </Object>
+        <Object type="System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" name="Label11" children="Controls">
+          <Property name="TextAlign">MiddleCenter</Property>
+          <Property name="Text">Manual Control</Property>
+          <Property name="UseCompatibleTextRendering">True</Property>
+          <Property name="Font">Arial Rounded MT Bold, 21.75pt</Property>
+          <Property name="Location">198, 13</Property>
+          <Property name="Name">Label11</Property>
+          <Property name="Size">278, 30</Property>
+        </Object>
+        <Object type="MW.Instruments.LED, mwio, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="LED9" children="Controls">
+          <Property name="OutputValue">0</Property>
+          <Property name="BindingSrcObject" />
+          <Property name="BindingSrcType">Signal</Property>
+          <Property name="BindingSrcPath">LED3</Property>
+          <Property name="TargetName">TargetPC1</Property>
+          <Property name="Size">58, 53</Property>
+          <Property name="Location">394, 124</Property>
+          <Property name="Name">LED9</Property>
+        </Object>
+        <Object type="MW.Instruments.SwitchLED, mwio, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="SwitchLED4" children="Controls">
+          <Property name="BindingSrcPath">Loading/Value</Property>
+          <Property name="TargetName">TargetPC1</Property>
+          <Property name="BindingSrcType">Parameter</Property>
+          <Property name="Indicator">
+            <Property name="Height">0</Property>
+          </Property>
+          <Property name="Text">Loading Mode</Property>
+          <Property name="Size">164, 98</Property>
+          <Property name="Font">Segoe UI Black, 14.75pt, style=Bold</Property>
+          <Property name="BackColor">ButtonFace</Property>
+          <Property name="Location">16, 79</Property>
+          <Property name="Name">SwitchLED4</Property>
+        </Object>
+        <Object type="MW.Instruments.LED, mwio, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="LED2" children="Controls">
+          <Property name="OutputValue">0</Property>
+          <Property name="BindingSrcObject" />
+          <Property name="BindingSrcType">Signal</Property>
+          <Property name="BindingSrcPath">LED7</Property>
+          <Property name="TargetName">TargetPC1</Property>
+          <Property name="Size">54, 54</Property>
+          <Property name="Location">66, 19</Property>
+          <Property name="Name">LED2</Property>
+        </Object>
+        <Object type="MW.Instruments.SwitchLED, mwio, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="SwitchLED5" children="Controls">
+          <Property name="BindingSrcPath">Planar tip/Value</Property>
+          <Property name="TargetName">TargetPC1</Property>
+          <Property name="BindingSrcType">Parameter</Property>
+          <Property name="Indicator">
+            <Property name="Height">0</Property>
+          </Property>
+          <Property name="Text">Joint velocity/Planar Tip Mode</Property>
+          <Property name="Size">172, 98</Property>
+          <Property name="Font">Segoe UI, 12.75pt, style=Bold</Property>
+          <Property name="BackColor">ButtonFace</Property>
+          <Property name="Location">195, 79</Property>
+          <Property name="Name">SwitchLED5</Property>
+        </Object>
+        <Object type="MW.Instruments.LED, mwio, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="LED3" children="Controls">
+          <Property name="OutputValue">0</Property>
+          <Property name="BindingSrcObject" />
+          <Property name="BindingSrcType">Signal</Property>
+          <Property name="BindingSrcPath">LED4</Property>
+          <Property name="TargetName">TargetPC1</Property>
+          <Property name="Size">55, 53</Property>
+          <Property name="Location">499, 124</Property>
+          <Property name="Name">LED3</Property>
+        </Object>
+        <Property name="Size">579, 201</Property>
+        <Property name="BackColor">Info</Property>
+        <Property name="Location">643, 3</Property>
+        <Property name="Name">Panel4</Property>
+      </Object>
+      <Object type="MW.Instruments.Panel, mwio, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Panel3" children="Controls">
+        <Object type="MW.Instruments.Panel, mwio, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Panel8" children="Controls">
+          <Object type="MW.Instruments.LED, mwio, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="LED11" children="Controls">
+            <Property name="OutputValue">0</Property>
+            <Property name="BindingSrcObject" />
+            <Property name="BindingSrcType">Signal</Property>
+            <Property name="BindingSrcPath">operat_pos reached1</Property>
+            <Property name="TargetName">TargetPC1</Property>
+            <Property name="Size">43, 38</Property>
+            <Property name="Location">140, 86</Property>
+            <Property name="Name">LED11</Property>
+          </Object>
+          <Object type="System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" name="Label23" children="Controls">
+            <Property name="TextAlign">MiddleCenter</Property>
+            <Property name="Text">Operation Standby Position State</Property>
+            <Property name="UseCompatibleTextRendering">True</Property>
+            <Property name="Font">Segoe UI Black, 10pt, style=Bold</Property>
+            <Property name="Location">5, 17</Property>
+            <Property name="Name">Label23</Property>
+            <Property name="Size">210, 28</Property>
+          </Object>
+          <Object type="System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" name="Label21" children="Controls">
+            <Property name="TextAlign">MiddleCenter</Property>
+            <Property name="Text">State Reached</Property>
+            <Property name="UseCompatibleTextRendering">True</Property>
+            <Property name="Font">Segoe UI Black, 10pt, style=Bold</Property>
+            <Property name="Location">122, 47</Property>
+            <Property name="Name">Label21</Property>
+            <Property name="Size">61, 32</Property>
+          </Object>
+          <Object type="System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" name="Label14" children="Controls">
+            <Property name="TextAlign">MiddleCenter</Property>
+            <Property name="Text">State ON</Property>
+            <Property name="UseCompatibleTextRendering">True</Property>
+            <Property name="Font">Segoe UI Black, 10pt, style=Bold</Property>
+            <Property name="Location">28, 47</Property>
+            <Property name="Name">Label14</Property>
+            <Property name="Size">58, 35</Property>
+          </Object>
+          <Object type="MW.Instruments.LED, mwio, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="LED1" children="Controls">
+            <Property name="OutputValue">0</Property>
+            <Property name="BindingSrcObject" />
+            <Property name="BindingSrcType">Signal</Property>
+            <Property name="BindingSrcPath">LED2</Property>
+            <Property name="TargetName">TargetPC1</Property>
+            <Property name="Size">42, 40</Property>
+            <Property name="Location">33, 85</Property>
+            <Property name="Name">LED1</Property>
+          </Object>
+          <Property name="Size">223, 139</Property>
+          <Property name="BackColor">ControlLightLight</Property>
+          <Property name="Border">
+            <Property name="Style">Flat</Property>
+            <Property name="ThicknessDesired">11</Property>
+          </Property>
+          <Property name="Location">414, 52</Property>
+          <Property name="Name">Panel8</Property>
+        </Object>
+        <Object type="MW.Instruments.Panel, mwio, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Panel7" children="Controls">
+          <Object type="System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" name="Label22" children="Controls">
+            <Property name="TextAlign">MiddleCenter</Property>
+            <Property name="Text">Transport Position State</Property>
+            <Property name="UseCompatibleTextRendering">True</Property>
+            <Property name="Font">Segoe UI Black, 10pt, style=Bold</Property>
+            <Property name="Location">12, 17</Property>
+            <Property name="Name">Label22</Property>
+            <Property name="Size">185, 28</Property>
+          </Object>
+          <Object type="System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" name="Label12" children="Controls">
+            <Property name="TextAlign">MiddleCenter</Property>
+            <Property name="Text">State ON</Property>
+            <Property name="UseCompatibleTextRendering">True</Property>
+            <Property name="Font">Segoe UI Black, 10pt, style=Bold</Property>
+            <Property name="Location">20, 49</Property>
+            <Property name="Name">Label12</Property>
+            <Property name="Size">56, 40</Property>
+          </Object>
+          <Object type="System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" name="Label20" children="Controls">
+            <Property name="TextAlign">MiddleCenter</Property>
+            <Property name="Text">State Reached</Property>
+            <Property name="UseCompatibleTextRendering">True</Property>
+            <Property name="Font">Segoe UI Black, 10pt, style=Bold</Property>
+            <Property name="Location">96, 49</Property>
+            <Property name="Name">Label20</Property>
+            <Property name="Size">90, 41</Property>
+          </Object>
+          <Object type="MW.Instruments.LED, mwio, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="LED10" children="Controls">
+            <Property name="OutputValue">0</Property>
+            <Property name="BindingSrcObject" />
+            <Property name="BindingSrcType">Signal</Property>
+            <Property name="BindingSrcPath">Transport_pos reached</Property>
+            <Property name="TargetName">TargetPC1</Property>
+            <Property name="Size">44, 39</Property>
+            <Property name="Location">120, 86</Property>
+            <Property name="Name">LED10</Property>
+          </Object>
+          <Object type="MW.Instruments.LED, mwio, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="LED8" children="Controls">
+            <Property name="OutputValue">0</Property>
+            <Property name="BindingSrcObject" />
+            <Property name="BindingSrcType">Signal</Property>
+            <Property name="BindingSrcPath">LED1</Property>
+            <Property name="TargetName">TargetPC1</Property>
+            <Property name="Size">45, 38</Property>
+            <Property name="Location">29, 86</Property>
+            <Property name="Name">LED8</Property>
+          </Object>
+          <Property name="Size">217, 139</Property>
+          <Property name="BackColor">ControlLightLight</Property>
+          <Property name="Border">
+            <Property name="Style">Flat</Property>
+            <Property name="ThicknessDesired">11</Property>
+          </Property>
+          <Property name="Location">191, 52</Property>
+          <Property name="Name">Panel7</Property>
+        </Object>
+        <Object type="System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" name="Label10" children="Controls">
+          <Property name="TextAlign">MiddleCenter</Property>
+          <Property name="Text">Automatic Control</Property>
+          <Property name="UseCompatibleTextRendering">True</Property>
+          <Property name="Font">Arial Rounded MT Bold, 21.75pt</Property>
+          <Property name="Location">106, 13</Property>
+          <Property name="Name">Label10</Property>
+          <Property name="Size">310, 36</Property>
+        </Object>
+        <Object type="MW.Instruments.SwitchLED, mwio, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="SwitchLED1" children="Controls">
+          <Property name="BindingSrcPath">Operation/Value</Property>
+          <Property name="TargetName">TargetPC1</Property>
+          <Property name="BindingSrcType">Parameter</Property>
+          <Property name="Indicator">
+            <Property name="Height">0</Property>
+          </Property>
+          <Property name="Text">Transport/ Operation Standby  State</Property>
+          <Property name="Size">169, 98</Property>
+          <Property name="Font">Segoe UI, 12.75pt, style=Bold</Property>
+          <Property name="BackColor">ButtonFace</Property>
+          <Property name="Location">3, 79</Property>
+          <Property name="Name">SwitchLED1</Property>
+        </Object>
+        <Property name="Size">650, 201</Property>
+        <Property name="BackColor">Window</Property>
+        <Property name="Location">0, 3</Property>
+        <Property name="Name">Panel3</Property>
+      </Object>
+      <Object type="MW.Instruments.Panel, mwio, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Panel2" children="Controls">
+        <Object type="System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" name="Label16" children="Controls">
+          <Property name="TextAlign">MiddleCenter</Property>
+          <Property name="Text">Joint Values</Property>
+          <Property name="UseCompatibleTextRendering">True</Property>
+          <Property name="Font">Arial Black, 15.75pt, style=Bold</Property>
+          <Property name="Location">71, 13</Property>
+          <Property name="Name">Label16</Property>
+          <Property name="Size">170, 41</Property>
+        </Object>
+        <Object type="System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" name="Label6" children="Controls">
+          <Property name="TextAlign">MiddleCenter</Property>
+          <Property name="Text">Extenstion (m)</Property>
+          <Property name="UseCompatibleTextRendering">True</Property>
+          <Property name="Font">Segoe UI Semibold, 12pt, style=Bold</Property>
+          <Property name="Location">153, 212</Property>
+          <Property name="Name">Label6</Property>
+          <Property name="Size">140, 23</Property>
+        </Object>
+        <Object type="System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" name="Label5" children="Controls">
+          <Property name="TextAlign">MiddleCenter</Property>
+          <Property name="Text">Tilt (deg)</Property>
+          <Property name="UseCompatibleTextRendering">True</Property>
+          <Property name="Font">Segoe UI Semibold, 12pt, style=Bold</Property>
+          <Property name="Location">12, 212</Property>
+          <Property name="Name">Label5</Property>
+          <Property name="Size">100, 23</Property>
+        </Object>
+        <Object type="System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" name="Label4" children="Controls">
+          <Property name="TextAlign">MiddleCenter</Property>
+          <Property name="Text">Lift (deg)</Property>
+          <Property name="UseCompatibleTextRendering">True</Property>
+          <Property name="Font">Segoe UI Semibold, 12pt, style=Bold</Property>
+          <Property name="Location">165, 87</Property>
+          <Property name="Name">Label4</Property>
+          <Property name="Size">100, 23</Property>
+        </Object>
+        <Object type="System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" name="Label1" children="Controls">
+          <Property name="TextAlign">MiddleCenter</Property>
+          <Property name="Text">Rotation (deg)</Property>
+          <Property name="UseCompatibleTextRendering">True</Property>
+          <Property name="Font">Segoe UI Semibold, 12pt, style=Bold</Property>
+          <Property name="Location">24, 84</Property>
+          <Property name="Name">Label1</Property>
+          <Property name="Size">112, 23</Property>
+        </Object>
+        <Object type="MW.Instruments.NumericDisplay, mwio, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="NumericDisplay4" children="Controls">
+          <Property name="BindingSrcType">Signal</Property>
+          <Property name="OutputValue">0</Property>
+          <Property name="BindingSrcPath">Signal Conversion2</Property>
+          <Property name="BindingSrcObject" />
+          <Property name="TargetName">TargetPC1</Property>
+          <Property name="Size">100, 25</Property>
+          <Property name="Location">22, 238</Property>
+          <Property name="Name">NumericDisplay4</Property>
+        </Object>
+        <Object type="MW.Instruments.NumericDisplay, mwio, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="NumericDisplay3" children="Controls">
+          <Property name="BindingSrcType">Signal</Property>
+          <Property name="OutputValue">0</Property>
+          <Property name="BindingSrcPath">Signal Conversion3</Property>
+          <Property name="BindingSrcObject" />
+          <Property name="TargetName">TargetPC1</Property>
+          <Property name="Size">100, 25</Property>
+          <Property name="Location">165, 238</Property>
+          <Property name="Name">NumericDisplay3</Property>
+        </Object>
+        <Object type="MW.Instruments.NumericDisplay, mwio, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="NumericDisplay2" children="Controls">
+          <Property name="BindingSrcType">Signal</Property>
+          <Property name="OutputValue">0</Property>
+          <Property name="BindingSrcPath">Signal Conversion1</Property>
+          <Property name="BindingSrcObject" />
+          <Property name="TargetName">TargetPC1</Property>
+          <Property name="Size">100, 25</Property>
+          <Property name="Location">165, 120</Property>
+          <Property name="Name">NumericDisplay2</Property>
+        </Object>
+        <Object type="MW.Instruments.NumericDisplay, mwio, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="NumericDisplay1" children="Controls">
+          <Property name="BindingSrcType">Signal</Property>
+          <Property name="OutputValue">0</Property>
+          <Property name="BindingSrcPath">Signal Conversion</Property>
+          <Property name="BindingSrcObject" />
+          <Property name="TargetName">TargetPC1</Property>
+          <Property name="Size">100, 25</Property>
+          <Property name="Location">24, 117</Property>
+          <Property name="Name">NumericDisplay1</Property>
+        </Object>
+        <Property name="Size">327, 294</Property>
+        <Property name="BackColor">GradientInactiveCaption</Property>
+        <Property name="Location">0, 210</Property>
+        <Property name="Name">Panel2</Property>
+      </Object>
+      <Object type="MW.Instruments.Panel, mwio, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Panel1" children="Controls">
+        <Object type="System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" name="Label25" children="Controls">
+          <Property name="TextAlign">MiddleCenter</Property>
+          <Property name="Text">Safe State</Property>
+          <Property name="UseCompatibleTextRendering">True</Property>
+          <Property name="Font">Arial Black, 12pt, style=Bold</Property>
+          <Property name="Location">227, 40</Property>
+          <Property name="Name">Label25</Property>
+          <Property name="Size">123, 54</Property>
+        </Object>
+        <Object type="MW.Instruments.SwitchLED, mwio, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="SwitchLED7" children="Controls">
+          <Property name="BindingSrcPath">Open_loop/Value</Property>
+          <Property name="TargetName">TargetPC1</Property>
+          <Property name="BindingSrcType">Parameter</Property>
+          <Property name="Indicator">
+            <Property name="Height">0</Property>
+            <Property name="MarginOffset">1</Property>
+            <Property name="MarginSides">1</Property>
+          </Property>
+          <Property name="Text">Service Mode</Property>
+          <Property name="Size">150, 58</Property>
+          <Property name="Font">Arial Black, 12pt, style=Bold</Property>
+          <Property name="Location">439, 190</Property>
+          <Property name="Name">SwitchLED7</Property>
+        </Object>
+        <Object type="MW.Instruments.LED, mwio, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="LED6" children="Controls">
+          <Property name="OutputValue">0</Property>
+          <Property name="BindingSrcObject" />
+          <Property name="BindingSrcType">Signal</Property>
+          <Property name="BindingSrcPath">ON//OFF</Property>
+          <Property name="TargetName">TargetPC1</Property>
+          <Property name="Indicator">
+            <Property name="Text">ON</Property>
+            <Property name="ColorActive">LawnGreen</Property>
+          </Property>
+          <Property name="Size">81, 84</Property>
+          <Property name="Location">57, 97</Property>
+          <Property name="Name">LED6</Property>
+        </Object>
+        <Object type="System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" name="Label8" children="Controls">
+          <Property name="TextAlign">MiddleCenter</Property>
+          <Property name="Text">Retrieve in  Service Mode</Property>
+          <Property name="UseCompatibleTextRendering">True</Property>
+          <Property name="Font">Arial Black, 12pt, style=Bold</Property>
+          <Property name="Location">634, 205</Property>
+          <Property name="Name">Label8</Property>
+          <Property name="Size">175, 63</Property>
+        </Object>
+        <Object type="System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" name="Label9" children="Controls">
+          <Property name="TextAlign">MiddleCenter</Property>
+          <Property name="Text">Collsion Detected</Property>
+          <Property name="UseCompatibleTextRendering">True</Property>
+          <Property name="Font">Arial Black, 12pt, style=Bold</Property>
+          <Property name="Location">668, 30</Property>
+          <Property name="Name">Label9</Property>
+          <Property name="Size">94, 54</Property>
+        </Object>
+        <Object type="MW.Instruments.LED, mwio, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="LED5" children="Controls">
+          <Property name="OutputValue">0</Property>
+          <Property name="BindingSrcObject" />
+          <Property name="BindingSrcType">Signal</Property>
+          <Property name="BindingSrcPath">LED5</Property>
+          <Property name="TargetName">TargetPC1</Property>
+          <Property name="Indicator">
+            <Property name="Text">STOP</Property>
+            <Property name="ColorActive">Crimson</Property>
+            <Property name="ColorInactive">Black</Property>
+          </Property>
+          <Property name="Size">87, 87</Property>
+          <Property name="Location">246, 97</Property>
+          <Property name="Name">LED5</Property>
+        </Object>
+        <Object type="MW.Instruments.LED, mwio, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="LED4" children="Controls">
+          <Property name="OutputValue">0</Property>
+          <Property name="BindingSrcObject" />
+          <Property name="BindingSrcType">Signal</Property>
+          <Property name="BindingSrcPath">LED6</Property>
+          <Property name="TargetName">TargetPC1</Property>
+          <Property name="Indicator">
+            <Property name="ColorActive">Yellow</Property>
+          </Property>
+          <Property name="Size">84, 87</Property>
+          <Property name="Location">463, 97</Property>
+          <Property name="Name">LED4</Property>
+        </Object>
+        <Object type="MW.Instruments.LED, mwio, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="LED7" children="Controls">
+          <Property name="OutputValue">0</Property>
+          <Property name="BindingSrcObject" />
+          <Property name="BindingSrcType">Signal</Property>
+          <Property name="BindingSrcPath">Memory1</Property>
+          <Property name="TargetName">TargetPC1</Property>
+          <Property name="Indicator">
+            <Property name="ColorActive">Red</Property>
+          </Property>
+          <Property name="Size">113, 115</Property>
+          <Property name="Location">662, 87</Property>
+          <Property name="Name">LED7</Property>
+        </Object>
+        <Object type="MW.Instruments.SwitchLED, mwio, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="SwitchLED6" children="Controls">
+          <Property name="BindingSrcPath">Fault Stop/Value</Property>
+          <Property name="TargetName">TargetPC1</Property>
+          <Property name="BindingSrcType">Parameter</Property>
+          <Property name="Indicator">
+            <Property name="Height">0</Property>
+            <Property name="ColorActive">Red</Property>
+          </Property>
+          <Property name="Text">STOP/ Safe state</Property>
+          <Property name="Size">141, 73</Property>
+          <Property name="Font">Segoe UI, 18pt, style=Bold</Property>
+          <Property name="ForeColor">Red</Property>
+          <Property name="Location">221, 190</Property>
+          <Property name="Name">SwitchLED6</Property>
+        </Object>
+        <Object type="MW.Instruments.SwitchLED, mwio, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="SwitchLED3" children="Controls">
+          <Property name="BindingSrcPath">ON//OFF/Value</Property>
+          <Property name="TargetName">TargetPC1</Property>
+          <Property name="BindingSrcType">Parameter</Property>
+          <Property name="Indicator">
+            <Property name="Height">0</Property>
+          </Property>
+          <Property name="Text">ON/OFF</Property>
+          <Property name="Size">135, 58</Property>
+          <Property name="Font">Segoe UI, 14.25pt, style=Bold</Property>
+          <Property name="Location">31, 190</Property>
+          <Property name="Name">SwitchLED3</Property>
+        </Object>
+        <Property name="Size">864, 294</Property>
+        <Property name="ForeColor">Black</Property>
+        <Property name="Location">333, 210</Property>
+        <Property name="Name">Panel1</Property>
+      </Object>
+      <Property name="Size">1237, 620</Property>
+      <Property name="Location">12, 12</Property>
+      <Property name="Name">Panel5</Property>
+    </Object>
+    <Property name="ClientSize">1920, 1080</Property>
+  </Object>
