@@ -32,3 +32,8 @@ It can be used to communicate with customers, gather requirements, in system tes
 ## 4. User Interface
 The user interface acts as a toolbox in selecting and controlling the operation of the boom. The Graphical user interface is used to select the different states of operation while the joystick is used to provide input to the joints. 
 ### Graphical User Interface
+The graphical user interface (GUI) provides a visual aid in choosing the different modes of operation. It was modelled using the instrument panel strip of the Simulink real time explorer. The modelled GUI is shown in fig
+![image](https://user-images.githubusercontent.com/51742367/59344269-6bddb680-8d16-11e9-8319-69e899ea9901.png)
+
+### Joystick
+The joystick is used to provide the input values for joint control of the boom control system. The joystick used has 4 axes control and 12 buttons. The buttons communication has been terminated in the Simulink model. The axes are used for controlling the joints in joint velocity mode, boom tip in planar tip mode. In automatic mode the axis is used to control the velocity of the automatic boom movement.
