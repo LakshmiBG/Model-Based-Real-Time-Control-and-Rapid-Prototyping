@@ -1,5 +1,6 @@
 # Model-Based-Real-Time-Control-and-Rapid-Prototyping
-The aim of this exercise is to design and implement a real-time control system for a 4 degree-of- freedom hydraulic loader (i.e. boom) and test it in a rapid prototyping environment.
+The aim of this exercise is to design and implement a real-time control system for a 4 degree-of- freedom hydraulic loader (i.e. boom) as seen in the figure below and test it in a rapid prototyping environment.
+![image](https://user-images.githubusercontent.com/51742367/59420698-05b86880-8dd6-11e9-8efc-08302cd777d6.png)
 
 ## 1. Introduction
 The purpose and scope of this exercise are to design and implement a real-time control system for the given 4 degrees of freedom (DOF) hydraulic boom model and to test it in the rapid prototyping environment. 
